@@ -38,7 +38,7 @@ const useAuthStore = create((set) => ({
             
             set({ authUser: res.data })
         } catch (error) {
-            console.log("Error in check: ", error.message);
+            // console.log("Error in check: ", error.message);
             set({authUser: null})
         } 
     },
