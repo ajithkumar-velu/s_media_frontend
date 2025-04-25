@@ -8,8 +8,8 @@ const Login = () => {
   const { login, isLogin } = useAuthStore()
   const [isPasswordShow, setIsPasswordShow] = useState(false)
   const [loginData, setLoginData] = useState({
-    username: "",
-    password: ""
+    username: "username1",
+    password: "password1"
   })
   const { getAllPost } = usePostStore()
   const onChangeHandler = (e) => {
